@@ -1,0 +1,13 @@
+import math
+print( '=====' * 2 )
+print( '=== MUNDO 1 AULA 18 === \n' * 5 )
+print( '====' * 6 )
+Angulo = float(input( 'Digite o Angulo que você deseja: ' ))
+seno = math.sin(math.radians( Angulo ))
+cosseno = math.cos(math.radians( Angulo ))
+tangente = math.tan(math.radians( Angulo ))
+print('o seno de {} é = {:.2f}'.format( Angulo , seno ))
+print('o cosseno de {} é = a {:.2f}'.format(Angulo, cosseno ))
+print('a tangente de {} é == {:.2f}'.format( Angulo , tangente ))
+print('===' * 6 )
+print('====' * 5 )
