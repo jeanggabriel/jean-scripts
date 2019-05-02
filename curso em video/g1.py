@@ -1,6 +1,13 @@
 from bs4 import BeautifulSoup
 import requests
 import html5lib
+import pymongo
+
+
+
+client = pymongo.MongoClient("mongodb+srv://jeangabriel:<123>@cluster0-aisxg.mongodb.net/test?retryWrites=true")
+db = client.test
+
 
 site = requests.get('https://g1.globo.com/busca/?q=agrotoxico')
 soup = BeautifulSoup(site.content ,'html.parser')
