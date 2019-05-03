@@ -20,7 +20,7 @@ while True:
 	print('\n==== BRANCO 1 ====')
 	
 	quantidadeVotos = int(input("\n\nInsira os VOTOS: "))
-	candidatoVotos = int(input("\nInsira o numero do canditado:\n| 13 HADDAD PT|\n|17 BOLSONARO PSL|\n|45 DORIA|\n|40 MARCIO FRANÇA|\n|1 BRANCO|\n|0 NULO |\n:  "))
+	candidatoVotos = int(input("\nInsira o numero do canditado:\n|13 HADDAD PT|\n|17 BOLSONARO PSL|\n|45 DORIA|\n|40 MARCIO FRANÇA|\n|1 BRANCO|\n|0 NULO |\n:  "))
 
 	
 	if candidatoVotos == 17:
