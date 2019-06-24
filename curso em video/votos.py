@@ -1,4 +1,6 @@
 import csv
+import django
+
 arquivo = open("eleiçoes.csv", "w")
 
 contadorBolsonaro = 0
